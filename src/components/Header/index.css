@@ -1,0 +1,43 @@
+.netflix-logo{
+    height: 40px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.header{
+    background-color: rgb(12, 11, 11,0.7);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.iconHA{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    color: whitesmoke;
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.SearchAndContact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.para{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
