@@ -1,0 +1,38 @@
+
+#notfoundContainer{
+    display:flex;
+    border: 10px solid red;
+    box-shadow: 1px 2px 3px 4px  grey;
+    border-radius: 15px;
+    margin: 40px;
+    justify-content:space-between;
+    align-items:center;
+   height: 70vh;
+   padding: 0px;
+   backdrop-filter: blur(10px);
+   background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.notfoundText{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.notfoundTextPara{
+    font-size:20px;
+    font-weight:normal;
+    margin-bottom:10px;
+}
+
+.notfoundImage{
+    height:350px;
+    width:350px;
+    margin-left: 25px;
+    padding-right:20px;
+    cursor: none;
+    border-radius: 20px;
+
+}

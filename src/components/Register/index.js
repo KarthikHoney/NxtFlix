@@ -78,7 +78,7 @@ class Register extends Component {
                             {this.renderEmail()}
                             <button type="submit" className="button" >Register</button>
                             <p style={{textAlign: "center", fontSize: "18px", marginTop: "20px", color: "whitesmoke", fontFamily: "Roboto"}}>
-  Already have an Account? Click <Link to={"/"} style={{color: "red", textDecoration: "none",fontSize:'18px'}}>Login</Link>
+Already have an Account? Click <Link to={"/"} style={{color: "red", textDecoration: "none",fontSize:'18px'}}>Login</Link>
 </p>
                         </form>
                     </div>

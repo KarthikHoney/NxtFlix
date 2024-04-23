@@ -16,15 +16,7 @@ class Login extends Component {
 
     onSubmitForm= async (e)=>{
         e.preventDefault();
-        const {username,password}=this.state;
-        const user ={username,password};
-        const options = {
-            method: 'POST',
-            body:JSON.stringify(user)
-        }
-        const response = await fetch("http://localhost:3000/login",options)
-        const data = await response.json()
-        console.log(data);
+        
     }
 
     renderUsername = ()=>{
